@@ -2,20 +2,6 @@
 
 This repository contains a serverless application designed to provide student information .
 
-## Table of Contents
-
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-- [Deployment](#deployment)
-- [Lambda Functions](#lambda-functions)
-- [Frontend Files](#frontend-files)
-- [Infrastructure as Code](#infrastructure-as-code)
-- [Contributing](#contributing)
-
-
----
-
 ## Architecture
 
 ![Serverless Application Diagram](Application.png)
@@ -36,5 +22,18 @@ To set up and deploy this project, ensure you have the following installed and c
 2. **AWS CLI**: [Install AWS CLI](https://aws.amazon.com/cli/) and configure it with your AWS credentials:
    ```bash
    aws configure
+3. **Python**: [Download Python](https://www.python.org/downloads/) for creating and packaging the Lambda functions.
+4. **Node.js**: [Download Node.js](https://nodejs.org/) for building the frontend files.
+
+## Setup Instructions
+
+### Clone the Repository:
+```bash
+git clone https://github.com/youssef-138/serverless.git
+
+
+
+
+
 
 
