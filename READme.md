@@ -54,7 +54,7 @@ To set up and deploy this project, ensure you have the following installed and c
 4. **Apply the Terraform configuration to provision the AWS resources**:
    ```bash
    terraform apply
-   
+
 ---
 ## Deployment
 
@@ -79,9 +79,11 @@ To set up and deploy this project, ensure you have the following installed and c
  - **InsertStudentData** : This Lambda function fetches student data  stored in DynamoDB.
 
 You can find the Lambda functions code under the **lambda_functions/** directory.
+
 ---
 ## Frontend Files
 The frontend files for the application can be found in the **frontend-files/** directory. These are static files that can be deployed to S3.
+
 ---
 ## Infrastructure as Code
 erraform scripts in the **terraform/** directory automate the infrastructure setup, including:
